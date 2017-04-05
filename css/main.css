@@ -92,6 +92,137 @@ textarea {
 }
 
 /* ==========================================================================
+                                START MOBILE STYLE
+   ========================================================================== */
+
+         /*----------------------Commun style-----------------
+           --------------------------------------------------*/
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+
+
+            /*----------------------Header style-----------------
+           --------------------------------------------------*/ 
+header
+{
+    width: 100%;
+    height: 56px;
+    border:1px solid red;
+    /*background-color: rgb(249,247,247);*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+header  .menu_mobile .nav_mobile
+{
+    display:none;
+}
+
+.nomobile{
+    display: none;
+}
+
+header .menu_mobile a
+{
+    width: 20%;
+    height: 20px;
+    font-size: 30px;
+    color: black;
+}
+header aside
+{
+   width: 70%;
+   height: 100%;
+   /*background: url(../img/logo.svg) 50% no-repeat;
+   background-size: contain;*/
+
+}
+header aside img
+{
+    width: 100%;
+    height: 100%;
+
+}
+
+header .icone_mobile
+{
+    width: 20%;
+    display: inline-block;
+    height: 25px;
+}
+header .icone_mobile i
+{
+   float: right;
+}
+
+header .icone_mobile span
+{
+  background-color: rgb(179,88,96);
+  padding:0px;
+  border-radius: 50%;
+  height: 18px;
+  width: 18px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  float: right;
+  position:absolute;
+  right: 5px;
+  top: 6px;
+  
+}
+
+
+
+
+
+
+        /*----------------------Commun style-----------------
+           --------------------------------------------------*/ 
+
+
+
+            /*----------------------Commun style-----------------
+           --------------------------------------------------*/ 
+
+
+
+            /*----------------------Commun style-----------------
+           --------------------------------------------------*/
+           /*----------------------Commun style-----------------
+           --------------------------------------------------*/ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   START TABLET STYLE
+   ========================================================================== */
+/* ==========================================================================
+   START LAPTOP STYLE
+   ========================================================================== */
+ /*==========================================================================
    Author's custom styles
    ========================================================================== */
 
