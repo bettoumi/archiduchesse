@@ -258,6 +258,8 @@ header .icone_mobile span
 
 
 }
+
+      /*------------style for price chauss-------*/
 .accuielsect .chaussette .prix
 {
   width: 65px;
@@ -277,7 +279,11 @@ header .icone_mobile span
 .accuielsect .chaussette .prix i
 {
   font-size: 13px;
+
 }
+
+           /*------------style for figure-------*/
+
 .accuielsect .chaussette figure 
 {
   width: 80%;
@@ -292,18 +298,14 @@ header .icone_mobile span
   width:100%;
 
 }
-
-.accuielsect .chaussette figure  span
-{
-  margin:auto;
-}
-
+           
+           /*------------style for name chauss-------*/
 .accuielsect .chaussette figure   .nom_chausette 
 {
   font-style: italic;
   color:#555555;
   text-align: center;
-  font-size: 12px;
+  font-size: 10px;
   text-decoration: none;
 }
 .accuielsect .imgtrois
@@ -317,8 +319,40 @@ header .icone_mobile span
 
 
 
-            /*----------------------Commun style-----------------
+            /*----------------------style footer for moblie-------
            --------------------------------------------------*/ 
+
+footer
+{
+  width: 95%;
+  margin: 50px auto;
+
+}
+footer .foot1
+{
+  padding-top: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+footer .foot1 .lien_service
+{
+  max-width: 215px;
+  padding: 15px 30px;
+  line-height: 1.2em;
+  min-height: 75px;
+  background-color: rgb(247,247,247);
+  border-radius: 10px;
+}
+footer .foot1 .lien_service a
+{
+  text-decoration: none;
+  font-size: 10px;
+  color:rgb(185,185,185);
+}
+
+
 
 
 
