@@ -126,7 +126,8 @@ header  .menu_mobile .nav_mobile
     display:none;
 }
 
-.nomobile{
+.nomobile, .pointure
+{
     display: none;
 }
 
@@ -187,7 +188,7 @@ header .icone_mobile span
 
  .principal          
 {
-  width: 95%;
+  width: 90%;
   margin: auto;
 
 }
@@ -199,24 +200,35 @@ header .icone_mobile span
 }
 .principal aside 
 {
- display :flex;
- flex-wrap: wrap;
+ 
  width: 100%;
- justify-content: flex-start;
 
 }
-.principal aside a
+.principal aside ul
 {
-  text-decoration: none;
+  list-style-type: none;
+  display :flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.principal aside ul li
+{
   width: 65px;
   height: 30px;
   padding: 2px;
-  font-size: 13px;
-  text-align: center;
   margin:2px;
   border:1px solid transparent;
   border-radius: 3px;
   background-color: rgba(239,239,239,0.7);
+  text-align: center;
+}
+.principal aside a
+{
+  text-decoration: none;
+  
+  font-size: 13px;
+
+  
   color:rgb(185,185,185);
 
 
@@ -228,13 +240,16 @@ header .icone_mobile span
   color:#fff;
 }
 
-.principal aside a:hover
+.principal aside li:hover 
 {
   background-color: rgb(74,74,76);
+  
+}
+.principal aside li:hover a
+
+{
   color:#fff;
 }
-
-
 
 
 
@@ -247,51 +262,54 @@ header .icone_mobile span
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+  margin:auto;
+  border:2px solid pink;
 
   
 }
 
 .accuielsect .chaussette
 {
-  width:50%;
+  width:48%;
   border:1px solid red;
 
 
 }
 
       /*------------style for price chauss-------*/
-.accuielsect .chaussette .prix
-{
-  width: 65px;
-  height: 30px;
-  padding: 2px;
-  font-size: 13px;
-  text-align: center;
-  border:1px solid transparent;
-  border-radius: 3px;
-  background-color: rgba(239,239,239,0.7);
-  color:rgb(185,185,185);
-  float: right;
-  right: 50px;
-  
 
-}
-.accuielsect .chaussette .prix i
-{
-  font-size: 13px;
-
-}
 
            /*------------style for figure-------*/
 
 .accuielsect .chaussette figure 
 {
-  width: 80%;
+  width: 90%;
   border:1px solid green;
   margin: auto;
   display: flex;
   flex-direction:column;
-  justify-content: center; 
+  justify-content: flex-start;
+  align-items: center; 
+}
+.accuielsect .chaussette figure .prix
+{
+  width: 65px;
+  height: 25px;
+  padding: 2px;
+  font-size: 12px;
+  text-align: center;
+  border:1px solid transparent;
+  border-radius: 3px;
+  background-color: rgba(239,239,239,0.7);
+  color:rgb(185,185,185);
+  align-self: flex-end;
+ 
+
+}
+.accuielsect .chaussette figure .prix .material-icons
+{
+  font-size: 12px;
+
 }
 .accuielsect .chaussette figure img
 {
@@ -400,7 +418,7 @@ footer .foot2  .condgeneral a
 }
 footer .foot2  .input input[placeholder]
 {
-  font-size:8px;
+  font-size:12px;
 }
 footer .foot2  .input input
 {
@@ -412,22 +430,59 @@ footer .foot2  .input button
   height: 32px;
 }
 
+/* ==========================================================================
+                                START Tablette STYLE
+   ========================================================================== */
 
 
-
-
-
-
-            /*----------------------Commun style-----------------
+          /*---------------------- style header for tablette-----------------
            --------------------------------------------------*/
-           /*----------------------Commun style-----------------
+           /* without change
+
+           
+           /*--------------------style principal section -------------------
            --------------------------------------------------*/ 
- 
+ @media (min-width: 720px)
+ {
+  .accuielsect #troischauss
+  {
+    width: 65%;
+    height: auto;
+  }
+.accuielsect .chaussette
+{
+  width:32%;
+  border:1px solid red;
 
 
+}
+.accuielsect .chaussette figure 
+{
+    width:100%; 
+
+ }
+ .accuielsect .chaussette figure img
+ {
+    width: 100%;
+ }
+
+.accuielsect #troischauss  img
+{
+    width: 100%;
+    height: 100%;
+}
+.pointure
+{
+    display: block;
+}
+.pointure
+{
+    display:flex;
+    justify-content: space-around;
+}
 
 
-
+}
 
 
 
