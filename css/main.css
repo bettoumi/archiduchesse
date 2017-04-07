@@ -328,6 +328,8 @@ footer
   margin: 50px auto;
 
 }
+
+          /*-------------------start first sect footer------------*/
 footer .foot1
 {
   padding-top: 40px;
@@ -338,19 +340,79 @@ footer .foot1
 }
 footer .foot1 .lien_service
 {
-  max-width: 215px;
-  padding: 15px 30px;
-  line-height: 1.2em;
-  min-height: 75px;
-  background-color: rgb(247,247,247);
-  border-radius: 10px;
+   width: 230px;
+   padding: 20px 30px;
+   line-height: 1.2em;
+   height: 75px;
+   margin-bottom: 10px;
+   background-color: rgb(247,247,247);
+   border-radius: 10px;
+   text-align: center;
+   display:flex;
+}
+footer .foot1 .lien_service img
+{
+  width: 30%;
 }
 footer .foot1 .lien_service a
 {
-  text-decoration: none;
-  font-size: 10px;
-  color:rgb(185,185,185);
+   max-width: 215px;
+   margin:auto;
+   text-decoration: none;
+   font-size: 13px;
+   color:rgb(200,195,195);
 }
+footer .foot1 .lien_service a:hover
+{
+  color: rgb(74,74,76);
+}
+
+
+    /*-------------------start second sect footer------------*/
+
+footer .foot2
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin:30px auto;
+}
+footer .foot2  .dev, footer .foot2  .input, footer .foot2  .condgeneral
+{
+  
+  width: 80%;
+  color: rgb(176,176,176);
+  font-size: 12px;
+  display:flex;
+  justify-content:  center;
+  /*font-weight: bold;*/
+  font-style: italic;
+
+}
+
+footer .foot2  .condgeneral a
+{
+  text-decoration: none;
+  color: rgb(176,176,176);
+  font-size: 11px;
+
+}
+footer .foot2  .input input[placeholder]
+{
+  font-size:8px;
+}
+footer .foot2  .input input
+{
+  width: 250px;
+  padding: 5px;
+}
+footer .foot2  .input button
+{
+  height: 32px;
+}
+
+
 
 
 
