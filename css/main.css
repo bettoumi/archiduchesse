@@ -247,11 +247,15 @@ header .icone_mobile span
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+
+  
 }
 
 .accuielsect .chaussette
 {
-  width:80% ;
+  width:50%;
+  border:1px solid red;
+
 
 }
 .accuielsect .chaussette .prix
@@ -266,7 +270,6 @@ header .icone_mobile span
   background-color: rgba(239,239,239,0.7);
   color:rgb(185,185,185);
   float: right;
-  
   right: 50px;
   
 
@@ -277,7 +280,12 @@ header .icone_mobile span
 }
 .accuielsect .chaussette figure 
 {
-  width: 70%;
+  width: 80%;
+  border:1px solid green;
+  margin: auto;
+  display: flex;
+  flex-direction:column;
+  justify-content: center; 
 }
 .accuielsect .chaussette figure img
 {
@@ -285,15 +293,22 @@ header .icone_mobile span
 
 }
 
-.accuielsect .chaussette figure .nom_chausette
+.accuielsect .chaussette figure  span
+{
+  margin:auto;
+}
+
+.accuielsect .chaussette figure   .nom_chausette 
 {
   font-style: italic;
   color:#555555;
   text-align: center;
+  font-size: 12px;
+  text-decoration: none;
 }
 .accuielsect .imgtrois
 {
-  width: 70%;
+  width: 100%;
 }
 .accuielsect .imgtrois img
 {
