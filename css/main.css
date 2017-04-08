@@ -188,7 +188,7 @@ header .icone_mobile span
 
  .principal          
 {
-  width: 90%;
+  width: 95%;
   margin: auto;
 
 }
@@ -261,7 +261,7 @@ header .icone_mobile span
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: space-around;
   margin:auto;
   border:2px solid pink;
 
@@ -271,7 +271,7 @@ header .icone_mobile span
 .accuielsect .chaussette
 {
   width:48%;
-  border:1px solid red;
+  /*border:1px solid red;*/
 
 
 }
@@ -284,7 +284,7 @@ header .icone_mobile span
 .accuielsect .chaussette figure 
 {
   width: 90%;
-  border:1px solid green;
+  /*border:1px solid green;*/
   margin: auto;
   display: flex;
   flex-direction:column;
@@ -452,7 +452,7 @@ footer .foot2  .input button
 .accuielsect .chaussette
 {
   width:32%;
-  border:1px solid red;
+  /*border:1px solid red;*/
 
 
 }
@@ -471,16 +471,130 @@ footer .foot2  .input button
     width: 100%;
     height: 100%;
 }
-.pointure
-{
-    display: block;
-}
+
+
 .pointure
 {
     display:flex;
-    justify-content: space-around;
-}
+    margin: 10px auto;
+    width: 70%;
+    justify-content: center;
+    align-content: center;
 
+
+ 
+}
+.pointure:after
+{
+  content: " ";
+  position: absolute;
+  width: 70%;
+  height: 10px
+  /*z-index: -10;*/
+  bottom: 0px;
+  left: 5%;
+    
+  border-radius: 125px / 12px;
+  box-shadow: 0 0 8px #565656;
+}
+.point
+{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 2px;
+  width: 20px;
+  height: 30px;
+  margin-right: 5px;
+}
+.haut , .bas
+{
+  text-align: center;
+  width: 15px;
+  align-self: center;
+
+  font-size: 11px;
+  color:rgb(241,247,254);
+
+
+}
+.haut
+{
+  border-bottom:   1px solid rgb(241,247,254);
+}
+        /* class for couleur*/
+.rose
+{
+  background-color: rgb(237,213,213);
+}
+.rougemai
+{
+  background-color: rgb(132,10,25);
+
+}
+ .rosefram
+ {
+  background-color: rgb(197,30,81);
+ }
+ .rosepanth
+ {
+  background-color:  rgb(246,140,166);
+ }
+ .auber
+ {
+  background-color: rgb(107,21,60);
+ }
+ .mauv
+ {
+  background-color: rgb(192,19,76);
+ }
+ .jmauv
+ {
+  background-color: rgb(180,151,173);
+ }
+  
+.violet
+{
+  background-color:  rgb(167,68,123);
+}
+.ultra
+{
+  background-color: rgb(170,100,170);
+}
+.violetv
+{
+  background-color: rgb(161,144,196);
+}
+.bleu13
+{
+  background-color: rgb(107,153,212);
+}
+.bleupetit
+{
+  background-color:rgb(221,235,250) ;
+
+}
+.bleutur
+{
+  background-color: rgb(47,161,187);
+}
+.bleucana
+{
+  background-color: rgb(43,162,184);
+}
+.orangci
+{
+  background-color: rgb(231,64,30);
+}
+.rougecar
+{
+  background-color: rgb(178,11,11);
+}
+.rougeb
+{
+  background-color: rgb(189,58,47);
+}
 
 }
 
