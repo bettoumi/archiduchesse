@@ -114,14 +114,21 @@ header
     height: 56px;
     border-bottom: 1px solid rgb(243,243,242);
     box-shadow: 3px 5px rgb(249,247,242);
-    /*background-color: rgb(249,247,247);*/
+    background-image: url(../img/bg.png) no-repeat;
+    
+}
+header .haut_header
+{
+    width: 100%;
     display: flex;
+    height: 100%;
     justify-content: space-around;
     align-items: center;
     padding: 10px;
+
 }
 
-header  .menu_mobile .nav_mobile
+header  .haut_header .menu_mobile .nav_mobile
 {
     display:none;
 }
@@ -131,19 +138,18 @@ header  .menu_mobile .nav_mobile
     display: none;
 }
 
-header .menu_mobile a
+header .haut_header .menu_mobile a
 {
     width: 20%;
     height: 20px;
     font-size: 30px;
     color: black;
 }
-header aside
+header  .haut_header aside
 {
-   width: 70%;
-   height: 100%;
-   /*background: url(../img/logo.svg) 50% no-repeat;
-   background-size: contain;*/
+    width: 70%;
+    height: 100%;
+   
 
 }
 header aside img
@@ -190,6 +196,8 @@ header .icone_mobile span
 {
   width: 95%;
   margin: auto;
+  background-image: url(../img/bg2.png);
+  background-size: cover;
 
 }
 .principal h1
@@ -261,7 +269,7 @@ header .icone_mobile span
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: flex-start;
   margin:auto;
   border:2px solid pink;
 
@@ -326,11 +334,11 @@ header .icone_mobile span
   font-size: 10px;
   text-decoration: none;
 }
-.accuielsect .imgtrois
+.accuielsect #troischauss
 {
   width: 100%;
 }
-.accuielsect .imgtrois img
+.accuielsect #troischauss img
 {
   width: 100%;
 }
@@ -344,6 +352,7 @@ footer
 {
   width: 95%;
   margin: 50px auto;
+  background-image: url(../img/bg.png) no-repeat;
 
 }
 
@@ -445,84 +454,73 @@ footer .foot2  .input button
  @media (min-width: 720px)
  {
   .accuielsect #troischauss
-  {
-    width: 65%;
-    height: auto;
-  }
-.accuielsect .chaussette
-{
-  width:32%;
+    {
+      width: 65%;
+      height: auto;
+    }
+  .accuielsect .chaussette
+    {
+      width:32%;
   /*border:1px solid red;*/
 
+    }
+  .accuielsect .chaussette figure, .accuielsect #troischauss  img, .accuielsect .chaussette figure img
+     
+    {
+      width:100%; 
 
-}
-.accuielsect .chaussette figure 
-{
-    width:100%; 
-
- }
- .accuielsect .chaussette figure img
- {
-    width: 100%;
- }
-
-.accuielsect #troischauss  img
-{
-    width: 100%;
-    height: 100%;
-}
-
-
-.pointure
-{
-    display:flex;
-    margin: 10px auto;
-    width: 70%;
-    justify-content: center;
-    align-content: center;
-
-
- 
-}
-.pointure:after
-{
-  content: " ";
-  position: absolute;
-  width: 70%;
-  height: 10px
-  /*z-index: -10;*/
-  bottom: 0px;
-  left: 5%;
-    
-  border-radius: 125px / 12px;
-  box-shadow: 0 0 8px #565656;
-}
-.point
-{
+   }
   
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border-radius: 2px;
-  width: 20px;
-  height: 30px;
-  margin-right: 5px;
-}
-.haut , .bas
-{
-  text-align: center;
-  width: 15px;
-  align-self: center;
-
-  font-size: 11px;
-  color:rgb(241,247,254);
+    
+  .accuielsect #troischauss  img
+    {
+   
+      height: 100%;
+    }
 
 
-}
-.haut
-{
-  border-bottom:   1px solid rgb(241,247,254);
-}
+    .pointure
+    {
+      display:flex;
+      margin: 10px auto;
+      width: 70%;
+      justify-content: center;
+      align-content: center;
+ 
+      }
+
+    .point
+    {
+  
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border-radius: 2px;
+      width: 20px;
+      height: 30px;
+      margin-right: 5px;
+    }
+
+     .point:hover
+    {
+      height: 35px;     
+
+    }
+    .haut , .bas
+    {
+      text-align: center;
+      width: 15px;
+      align-self: center;
+
+      font-size: 11px;
+      color:rgb(241,247,254);
+
+
+    }
+    .haut
+    {
+        border-bottom:   1px solid rgb(241,247,254);
+    }
         /* class for couleur*/
 .rose
 {
@@ -596,6 +594,114 @@ footer .foot2  .input button
   background-color: rgb(189,58,47);
 }
 
+    .accuielsect .chaussette figure   .nom_chausette
+    {
+        font-size: 13px;
+    }
+      
+           /*--------------------style header for tablette-------------------
+           --------------------------------------------------*/ 
+  
+   
+footer .foot1 .lien_service
+{
+   width: 300px;
+
+}
+footer .foot2
+{
+  
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+ } 
+footer .foot2  .dev, footer .foot2  .input, footer .foot2  .condgeneral
+{
+  
+  width:28%;
+  justify-content: flex-start;
+ } 
+ footer .foot2  .input input
+ {
+  width: 200px;
+  padding: 2px;
+
+  }
+footer .foot2  .input button
+{
+  height: 28px;
+
+}
+
+
+
+
+}
+/* ==========================================================================
+                START DESKTOP STYLE
+   ========================================================================== */
+
+@media (min-width: 1024px)
+{
+
+      
+  /*--------------------style header for DESKTOP-------------------
+           --------------------------------------------------*/ 
+  
+
+
+    header
+    {
+      width: 100%;
+      height: 190px;
+    
+      display: flex;
+      justify-content:flex-start;
+      align-items: center;
+     
+
+    }
+ 
+
+    header .menu_mobile, header .icone_mobile
+    {
+        display: none;
+    }
+                 /*------------style  lien of header---------*/
+    header .lien
+    {
+        display:flex;
+        justify-content: space-around;
+
+    }
+
+    header .lien ul
+    {
+        list-style-type: none;
+    }
+
+    header aside
+    {
+        width: 30%;
+        height: 100%;
+   
+
+    }
+header aside img
+{
+    width: 100%;
+    height: 130%;
+    margin-left: 40px;
+    margin-bottom: 20px;
+
+
+}
+
+
+
+
+
+
 }
 
 
@@ -606,12 +712,6 @@ footer .foot2  .input button
 
 
 
-
-
-
-/* ==========================================================================
-   START TABLET STYLE
-   ========================================================================== */
 /* ==========================================================================
    START LAPTOP STYLE
    ========================================================================== */
