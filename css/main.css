@@ -199,7 +199,7 @@ header .icone_mobile span
   width: 95%;
   margin: auto;
   background-image: url(../img/bg2.png);
-  background-size: cover;
+  background-size:contain;
 
 }
 
@@ -360,7 +360,7 @@ footer
 {
   width: 95%;
   margin: 50px auto;
-  background-image: url(../img/bg.png) no-repeat;
+  background-image: url(../img/bg.png);
 
 }
 
@@ -995,9 +995,25 @@ footer .foot2  .input button
     }
   
 
+/*--------------------style footer for DESKTOP-------------------
+           --------------------------------------------------*/ 
 
 
+      footer .foot1
+      {
+          width: 90%;
 
+
+      }
+      footer .foot1 .lien_service a
+      {
+        font-size: 15px;
+        font-style: italic;
+      }
+      footer .foot2
+      {
+        color: rgb(74,74,76);
+      }
 
 
 }
