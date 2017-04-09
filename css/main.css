@@ -279,17 +279,12 @@ header .icone_mobile span
   flex-wrap: wrap;
   justify-content: flex-start;
   margin:auto;
-  border:2px solid pink;
-
   
 }
 
 .accuielsect .chaussette
 {
   width:48%;
-  /*border:1px solid red;*/
-
-
 }
 
       /*------------style for price chauss-------*/
@@ -300,7 +295,6 @@ header .icone_mobile span
 .accuielsect .chaussette figure 
 {
   width: 90%;
-  /*border:1px solid green;*/
   margin: auto;
   display: flex;
   flex-direction:column;
@@ -421,8 +415,7 @@ footer .foot2  .dev, footer .foot2  .input, footer .foot2  .condgeneral
   font-size: 12px;
   display:flex;
   justify-content:  center;
-  /*font-weight: bold;*/
-  font-style: italic;
+   font-style: italic;
 
 }
 
@@ -689,7 +682,6 @@ footer .foot2  .input button
     {
         width: 25%;
         height: 100%;
-        border:1px solid green;
         margin-top: 20px;
    
     }
@@ -709,12 +701,9 @@ footer .foot2  .input button
     {
         display:flex;
         width: 35%;
-        border:1px solid red;
-        
+        margin-left: 20px;
         margin-top: auto;
         
-        
-
     }
 
     header .lien ul
@@ -722,8 +711,8 @@ footer .foot2  .input button
         list-style-type: none;
         display:flex;
         width: 100%;
-        justify-content: space-around; 
-        border:1px solid green;
+        justify-content: space-between; 
+        margin-left: 15px;
 
     }
     
