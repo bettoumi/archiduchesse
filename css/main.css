@@ -202,26 +202,32 @@ header .icone_mobile span
   background-size: cover;
 
 }
+
 .principal h1
 {
   font-size: 25px;
   font-family: 'Averia Serif Libre', cursive;
   line-height: 1.42;
 }
-.principal aside 
+ .principal .principal1
+{
+  width: 100%;
+  margin: auto;
+}
+.principal1 aside 
 {
  
  width: 100%;
 
 }
-.principal aside ul
+.principal1 aside ul
 {
   list-style-type: none;
   display :flex;
   flex-wrap: wrap;
   justify-content: flex-start;
 }
-.principal aside ul li
+.principal1 aside ul li
 {
   width: 65px;
   height: 30px;
@@ -232,7 +238,7 @@ header .icone_mobile span
   background-color: rgba(239,239,239,0.7);
   text-align: center;
 }
-.principal aside a
+.principal1 aside a
 {
   text-decoration: none;
   
@@ -244,18 +250,18 @@ header .icone_mobile span
 
 
 }
-.principal aside #toute
+.principal1 aside #toute
 {
   background-color: rgb(74,74,76);
   color:#fff;
 }
 
-.principal aside li:hover 
+.principal1 aside li:hover 
 {
   background-color: rgb(74,74,76);
   
 }
-.principal aside li:hover a
+.principal1 aside li:hover a
 
 {
   color:#fff;
@@ -266,7 +272,7 @@ header .icone_mobile span
 
         /*----------------------accuielsect style-----------------
            --------------------------------------------------*/ 
-.principal .accuielsect
+.principal1 .accuielsect
 {
   width: 100%;
   display: flex;
@@ -635,10 +641,9 @@ footer .foot2  .input button
 
 }
 
-
-
-
 }
+
+
 /* ==========================================================================
                 START DESKTOP STYLE
    ========================================================================== */
@@ -931,6 +936,68 @@ footer .foot2  .input button
             height: 55px;
     }
     
+
+
+/*--------------------style pricipal section for DESKTOP-------------------
+           --------------------------------------------------*/ 
+
+    
+    .principal
+    {
+      width: 90%;
+    }
+    .principal1
+    {
+          display: flex;
+          justify-content: flex-end;
+          /*border :1px solid green;*/
+          width: 100%;
+    }
+
+    .principal1 aside
+    {
+          position: fixed;
+          width: 8%;
+          /*border: 1px solid black;*/
+          right: 0;
+          top: 10;
+    }
+    .principal1 aside ul
+    {
+          list-style-type: none;
+          display :flex;
+          flex-direction: column;
+          justify-content: flex-start;
+      }
+    .accuielsect
+    {
+          width: 100%;
+          order:-1;
+          display: flex;
+          justify-content:center;
+          
+    }
+   .accuielsect #troischauss
+    {
+          width: 45%;
+          height: 260px;
+    }
+  .accuielsect .chaussette
+    {
+          width:20%;
+          margin:0 2.5%;
+          /*border:1px solid red;*/
+
+    }
+    .accuielsect .chaussette figure
+    {
+          width: 95%;
+    }
+  
+
+
+
+
 
 
 }
