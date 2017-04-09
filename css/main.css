@@ -115,6 +115,8 @@ header
     border-bottom: 1px solid rgb(243,243,242);
     box-shadow: 3px 5px rgb(249,247,242);
     background-image: url(../img/bg.png) no-repeat;
+   
+
     
 }
 header .haut_header
@@ -655,6 +657,9 @@ footer .foot2  .input button
       width: 100%;
       height: 190px;
       background-image: url(../img/bg.png);
+       display:flex;
+       flex-direction: column;
+       justify-content: space-between;
     }
 
     header .haut_header
@@ -762,7 +767,7 @@ footer .foot2  .input button
           top: 0px;
           right:31px; 
     }
-
+           /*-------------- style bienvenu div of desktop----------*/
   .bienvenu 
   {
           display: block;
@@ -860,8 +865,74 @@ footer .foot2  .input button
         font-size: 11px;
         color: rgb(130,124,123);
         font-style: italic;
-        
+     
    }
+
+
+
+     /*---------------------style menu of header--------------*/
+
+    header .menu
+    {
+          display:block;
+          width:95%;
+          margin: auto;
+          margin-top: 30px; 
+          /*border: 1px solid black;*/
+    }
+    header .menu ul 
+    {
+          list-style-type: none;
+          width: 95%;
+          height: 62px;
+          margin:auto;
+          display: flex;
+          justify-content: space-around;
+
+    }
+    header .menu li
+    {
+           display:flex;
+           justify-content: flex-start;
+           width: 175px;
+           height: 60px;
+           padding: 7px 0 0 8px;
+           /*border:1px solid red; */
+           background-color:rgb(231,227,228); 
+           border-radius: 5px 5px 0px 0px ; 
+    }
+    header .menu li a
+    {
+          text-decoration: none;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+           font-size: 18px;
+           font-style: italic;
+          color:rgb(120,120,120);
+          font-family: 'Averia Serif Libre', cursive;
+    }
+    header .menu li a  span
+    {
+          font-size: 10px;
+    }
+    header .menu li img
+    {
+           width:50px;
+           height:50px; 
+    }
+    header .menu li:hover
+    {
+          font-weight: bold;
+
+    }
+    header .menu li:hover  img
+    {
+            height: 55px;
+    }
+    
+
+
 }
 
 
