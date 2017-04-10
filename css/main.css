@@ -467,8 +467,17 @@ header #asideblog img
 {
   display: none;
 }
-
- .blogprincipal .blogarticle
+.blogprincipal 
+{
+      width: 93%;
+      margin: auto;
+}
+.blogprincipal .sectblogarticle
+{
+      width: 93%;
+      margin:auto;
+}
+ .blogprincipal .sectblogarticle .blogarticle
  {
     width: 93%;
     margin:auto;
@@ -717,15 +726,15 @@ footer .foot2  .input button
            --------------------------------------------------*/ 
   
 
-.blogprincipal .blogarticle .blogtexte
+.blogprincipal .sectblogarticle .blogarticle .blogtexte
 {
     font-size: 14px;
 
  } 
-  .blogprincipal .blogarticle ul
+  .blogprincipal  .sectblogarticle .blogarticle ul
 
 {
-    font-size: 15px;
+    font-size: 15px; 
   
 }
 footer .foot2 .noblog
@@ -1118,17 +1127,9 @@ footer .foot2 .noblog
                       /*--------style header for blog.html------*/
 
 
-    /* #blogbienvenu
-     {
-          
-     }*/
+     
 
-    #blogbienvenu #bloghautbienvenu
-    {
-      
-
-    }
-                          
+                              
      #blogbienvenu #bloghautbienvenu .lienbienblog
     {
       color:rgb(179,96,120);
@@ -1137,21 +1138,59 @@ footer .foot2 .noblog
       margin: auto;
     }
   
+
+                       /*-----------------style principal section in blog.html---------*/
     .blogprincipal
     {
 
       display: flex;
-      justify-content: space-between;
-      align-items: stretch;
+      justify-content: space-around;
+      margin-top:30px;
+      
     }
-   .asidenomobile
+   .blogprincipal .asidenomobile
    {
+     
+      display:flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
       flex:1;
+      
    }
-   .blogarticle
+
+   .blogprincipal .sectblogarticle
    {
-      flex:2;
+      
+      order: -1;
+      flex: 2;
+      border:1px solid black;
+
    }
+  .blogprincipal .asidenomobile .blognav .categorie h4, .blogprincipal .asidenomobile .blognav .categorie span
+    {
+      color:rgb(105,105,105);
+
+    }
+
+   .blogprincipal .asidenomobile .blognav .categorie h4 
+   {
+       font-size: 20px;
+   }
+   .blogprincipal .asidenomobile ul 
+   {
+      list-style-type: none;
+
+   }
+   .blogprincipal .asidenomobile ul  li
+   {
+       margin:10px;
+   }
+    .blogprincipal .asidenomobile ul  li a
+  {
+      text-decoration: none;
+      font-size: 16px;
+  }
 
 
 
