@@ -551,7 +551,7 @@ header #asideblog img
   .accuielsect .chaussette
     {
       width:32%;
-  /*border:1px solid red;*/
+  
 
     }
   .accuielsect .chaussette figure, .accuielsect #troischauss  img, .accuielsect .chaussette figure img
@@ -790,7 +790,11 @@ footer .foot2 .noblog
     {
         display: none;
     }
-      /*------------style logo in the header----------*/
+
+
+            /*------------style logo in the header----------*/
+
+
 
     header .haut_header aside, header .haut_header #asideblog
     {
@@ -944,7 +948,7 @@ footer .foot2 .noblog
         color: rgb(179,88,96);
       
         text-align: center;
-        /*border:1px solid green;*/
+        
   }
 
   .hautbienvenu .produitpanier .nobproduit
@@ -955,7 +959,6 @@ footer .foot2 .noblog
         color: rgb(179,88,96);
         font-size: 15px;
         margin-top: 5px;
-        /*border:1px solid red;*/
         margin-bottom: 10px;
    } 
 
@@ -986,7 +989,7 @@ footer .foot2 .noblog
           width:95%;
           margin: auto;
           margin-top: 30px; 
-          /*border: 1px solid black;*/
+        
     }
     header .menu ul 
     {
@@ -1005,7 +1008,6 @@ footer .foot2 .noblog
            width: 175px;
            height: 60px;
            padding: 7px 0 0 8px;
-           /*border:1px solid red; */
            background-color:rgb(231,227,228); 
            border-radius: 5px 5px 0px 0px ; 
     }
@@ -1053,7 +1055,6 @@ footer .foot2 .noblog
     {
           display: flex;
           justify-content: flex-end;
-          /*border :1px solid green;*/
           width: 100%;
     }
 
@@ -1061,7 +1062,6 @@ footer .foot2 .noblog
     {
           position: fixed;
           width: 8%;
-          /*border: 1px solid black;*/
           right: 0;
           top: 10;
     }
@@ -1089,7 +1089,7 @@ footer .foot2 .noblog
     {
           width:20%;
           margin:0 2.5%;
-          /*border:1px solid red;*/
+          
 
     }
     .accuielsect .chaussette figure
@@ -1164,7 +1164,7 @@ footer .foot2 .noblog
       
       order: -1;
       flex: 2;
-      border:1px solid black;
+     
 
    }
   .blogprincipal .asidenomobile .blognav .categorie h4, .blogprincipal .asidenomobile .blognav .categorie span
