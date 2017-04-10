@@ -440,8 +440,28 @@ footer .foot2  .input button
   height: 32px;
 }
 
-               /*----------------------start Blog page style-------------------
+               /*----------------------start Blog page style for mobile-------------------
                  -------------------------------------------------------------*/
+
+         /*----------header of blog------------*/
+
+  header  .haut_header #asideblog
+{
+    width: 70%;
+    height: 100%;
+    
+
+}
+header #asideblog img
+{
+    width: 100%;
+    height: 130%;
+    margin:0 auto;
+    margin-bottom: 20px;
+
+
+}
+      /*----------blogricipal  of blog for mobile------------*/
 
 .blogprincipal .asidenomobile
 {
@@ -510,7 +530,7 @@ footer .foot2  .input button
            /* without change
 
            
-           /*--------------------style principal section -------------------
+           /*--------------------style principal section in index.html -------------------
            --------------------------------------------------*/ 
  @media (min-width: 720px)
  {
@@ -660,41 +680,66 @@ footer .foot2  .input button
         font-size: 13px;
     }
       
-           /*--------------------style header for tablette-------------------
+           /*--------------------style footer for tablette in index.html-------------------
            --------------------------------------------------*/ 
   
    
 footer .foot1 .lien_service
 {
-   width: 300px;
+      width: 300px;
 
 }
 footer .foot2
 {
   
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
  } 
 footer .foot2  .dev, footer .foot2  .input, footer .foot2  .condgeneral
 {
   
-  width:28%;
-  justify-content: flex-start;
+      width:28%;
+      justify-content: flex-start;
  } 
  footer .foot2  .input input
  {
-  width: 200px;
-  padding: 2px;
+      width: 200px;
+      padding: 2px;
 
   }
 footer .foot2  .input button
 {
-  height: 28px;
+      height: 28px;
+
+}
+        /*--------------------style blogprincipal section  for tablette in blog.html -------------------
+           --------------------------------------------------*/ 
+  
+
+.blogprincipal .blogarticle .blogtexte
+{
+    font-size: 14px;
+
+ } 
+  .blogprincipal .blogarticle ul
+
+{
+    font-size: 15px;
+  
+}
+footer .foot2 .noblog
+{
+
+    display: none;
+}
+
+
 
 }
 
-}
+
+
 
 
 /* ==========================================================================
@@ -738,14 +783,14 @@ footer .foot2  .input button
     }
       /*------------style logo in the header----------*/
 
-    header .haut_header aside
+    header .haut_header aside, header .haut_header #asideblog
     {
         width: 25%;
         height: 100%;
         margin-top: 20px;
    
     }
-    header aside img
+    header aside img, header  #asideblog img
     {
         width: 100%;
         height: 100%;
@@ -868,7 +913,7 @@ footer .foot2  .input button
   .hautbienvenu .select-connexion .connexion p, .hautbienvenu .select-connexion .connexion a
    {
         color: rgb(179,88,96);
-         font-size: 10px;  
+        font-size: 10px;  
    }
   
   .hautbienvenu .select-connexion .connexion a
@@ -1044,7 +1089,7 @@ footer .foot2  .input button
     }
   
 
-/*--------------------style footer for DESKTOP-------------------
+/*--------------------style footer  in index.htmlfor DESKTOP-------------------
            --------------------------------------------------*/ 
 
 
@@ -1063,6 +1108,54 @@ footer .foot2  .input button
       {
         color: rgb(74,74,76);
       }
+
+
+
+      /*--------------------style blog.html for DESKTOP-------------------
+           --------------------------------------------------*/ 
+
+
+                      /*--------style header for blog.html------*/
+
+
+    /* #blogbienvenu
+     {
+          
+     }*/
+
+    #blogbienvenu #bloghautbienvenu
+    {
+      
+
+    }
+                          
+     #blogbienvenu #bloghautbienvenu .lienbienblog
+    {
+      color:rgb(179,96,120);
+      text-decoration: none;
+      font-size: 18px;
+      margin: auto;
+    }
+  
+    .blogprincipal
+    {
+
+      display: flex;
+      justify-content: space-between;
+      align-items: stretch;
+    }
+   .asidenomobile
+   {
+      flex:1;
+   }
+   .blogarticle
+   {
+      flex:2;
+   }
+
+
+
+
 
 
 }
