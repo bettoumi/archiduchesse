@@ -114,7 +114,7 @@ header
     height: 56px;
     border-bottom: 1px solid rgb(243,243,242);
     box-shadow: 3px 5px rgb(249,247,242);
-    background-image: url(../img/bg.png) no-repeat;
+    background-image: url(../img/bg.png) ;
    
 
     
@@ -938,8 +938,10 @@ footer .foot2 .noblog
   {
         display: flex;
         justify-content: center;
-        background-image: url(../img/stabilo.png)  no-repeat;
-        background-size: cover;
+        background-image: url(../img/stabilo.png) ;
+        background-repeat: no-repeat;
+
+        background-size: contain;
   }
   .hautbienvenu .produitpanier .quantite
   {
