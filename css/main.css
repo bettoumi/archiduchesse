@@ -130,12 +130,12 @@ header .haut_header
 
 }
 
-header  .haut_header .menu_mobile .nav_mobile
+header  .haut_header .menu_mobile .nav_mobile, .blogprincipal .asidenomobile
 {
     display:none;
 }
 
-.nomobile, .pointure
+.nomobile, .pointure 
 {
     display: none;
 }
@@ -440,9 +440,69 @@ footer .foot2  .input button
   height: 32px;
 }
 
-/* ==========================================================================
+               /*----------------------start Blog page style-------------------
+                 -------------------------------------------------------------*/
+
+.blogprincipal .asidenomobile
+{
+  display: none;
+}
+
+ .blogprincipal .blogarticle
+ {
+    width: 93%;
+    margin:auto;
+    text-align: justify;
+ }
+
+.blogprincipal .blogarticle h3, .blogprincipal .blogarticle h3 a
+{
+ 
+    color:rgb(203,204,198);
+    font-size: 15px;
+}
+.blogprincipal .blogarticle h3 a
+{
+    text-decoration: none;
+}
+
+.blogprincipal .blogarticle .blogtexte
+{
+    font-size: 13px;
+    color: #454545;
+}
+.blogprincipal .blogarticle .imgblog
+{
+    border:1px solid #babbb7;
+    width: 100%;
+    padding:3px 8px;
+    margin: 20px auto;
+}
+
+.blogprincipal .blogarticle img
+{
+    width: 100%;
+    height: 100%;
+    margin:6px auto;
+    
+}
+.blogprincipal .blogarticle ul
+{
+  margin: 0 5%;
+  font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+        /* ==========================================================================
                                 START Tablette STYLE
-   ========================================================================== */
+          ========================================================================== */
 
 
           /*---------------------- style header for tablette-----------------
